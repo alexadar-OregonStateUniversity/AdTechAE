@@ -1,0 +1,4 @@
+"Column Name","Data Type","Description","Constraints","Index"
+"category_code","TEXT","Unique identifier for the category","PRIMARY KEY","Yes"
+"category_name","TEXT","Name of the category","NOT NULL","No"
+"system_modify_date","TIMESTAMP","Timestamp for record modification","DEFAULT CURRENT_TIMESTAMP","No"

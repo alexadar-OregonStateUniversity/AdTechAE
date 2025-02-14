@@ -1,0 +1,11 @@
+Column Name,Data Type,Description,Constraints,Index
+brand_id,TEXT,Brand UUID (Unique Identifier),"PRIMARY KEY, NOT NULL",Primary Key
+barcode,TEXT,The barcode on the item,None,Not Indexed
+brand_code,TEXT,String that corresponds with the brand column in a partner product file,None,Not Indexed
+brand_name,TEXT,Brand name,None,Not Indexed
+top_brand,BOOLEAN,Boolean indicator for whether the brand should be featured as a 'top brand',None,Not Indexed
+category,TEXT,The category name for which the brand sells products in,None,Not Indexed
+category_code,TEXT,The category code that references a BrandCategory,None,Not Indexed
+cpg_code,TEXT,Reference to the CPG collection,None,Not Indexed
+cpg_name,TEXT,Not documented,None,Not Indexed
+system_add_date,TIMESTAMP,Timestamp when the record was added,DEFAULT CURRENT_TIMESTAMP,Not Indexed

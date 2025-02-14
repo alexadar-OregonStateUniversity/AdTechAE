@@ -1,0 +1,12 @@
+_id
+_id.$oid
+barcode
+brandCode
+category
+categoryCode
+cpg
+cpg.$id
+cpg.$id.$oid
+cpg.$ref
+name
+topBrand

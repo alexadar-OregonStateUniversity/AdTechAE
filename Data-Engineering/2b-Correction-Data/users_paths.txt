@@ -1,0 +1,10 @@
+_id
+_id.$oid
+active
+createdDate
+createdDate.$date
+lastLogin
+lastLogin.$date
+role
+signUpSource
+state

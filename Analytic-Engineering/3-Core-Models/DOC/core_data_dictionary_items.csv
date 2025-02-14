@@ -1,0 +1,5 @@
+"Column Name","Data Type","Description","Constraints"
+"item_hash_id","TEXT","Unique hash ID generated from item description and item number","PRIMARY KEY"
+"item_description_mod","TEXT","Cleaned and standardized item description","NOT NULL"
+"item_number_mod","TEXT","Standardized item number or barcode","NOT NULL"
+"system_modify_date","TIMESTAMP","Timestamp for record updates","DEFAULT CURRENT_TIMESTAMP"

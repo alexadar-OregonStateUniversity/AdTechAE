@@ -1,0 +1,16 @@
+Column Name,Data Type,Description,Constraints,Index
+receipt_id,TEXT,uuid for this receipt,"PRIMARY KEY, NOT NULL",Primary Key
+purchase_date,TIMESTAMP,the date of the purchase,None,Not Indexed
+total_spent,"NUMERIC(10,2)",The total amount on the receipt,None,Not Indexed
+purchased_item_count,INTEGER,Count of number of items on the receipt,None,Not Indexed
+date_scanned,TIMESTAMP,Date that the user scanned their receipt,None,Not Indexed
+finish_date,TIMESTAMP,Date that the receipt finished processing,None,Not Indexed
+rewards_status,VARCHAR(150),status of the receipt through receipt validation and processing,None,Not Indexed
+points_earned,"NUMERIC(10,2)",The number of points earned for the receipt,None,Not Indexed
+bonus_points_earned,"NUMERIC(10,2)",Number of bonus points that were awarded upon receipt completion,None,Not Indexed
+bonus_earned_reason,TEXT,event that triggered bonus points,None,Not Indexed
+points_award_date,TIMESTAMP,The date we awarded points for the transaction,None,Not Indexed
+create_date,TIMESTAMP,The date that the event was created,None,Not Indexed
+modify_date,TIMESTAMP,The date the event was modified,None,Not Indexed
+user_id,TEXT,user id foreign key,None,Not Indexed
+system_modify_date,TIMESTAMP,date record was added into the table by the system,DEFAULT CURRENT_TIMESTAMP,Not Indexed
