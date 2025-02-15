@@ -100,7 +100,7 @@ wsl --set-default-version 2
 
 ##### Clone the Repository  
 ```bash
-git clone https://github.com/name.git
+git clone https://github.com/alexadar-OregonStateUniversity/AdTechAE.git
 ```
 
 ##### Install Python 3.x  
